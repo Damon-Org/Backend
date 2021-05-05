@@ -1,0 +1,19 @@
+{
+  "name": "gta-v-backend",
+  "version": "0.1.0",
+  "description": "Damon Music REST",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "docker-compose up --build"
+  },
+  "author": "yimura",
+  "license": "MIT",
+  "dependencies": {
+    "@yimura/import-dir": "^0.1.12",
+    "bcrypt": "^5.0.1",
+    "ioredis": "^4.23.0",
+    "mongoose": "^5.11.15",
+    "node-fetch": "^2.6.1"
+  }
+}
